@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=local_laundry_service" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Project-4</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+
+        <!-- header container -->
+        <div class="container">
+
+            <!-- nav -->
+            <div class="nav">
+
+                <!-- div for logo -->
+                <div class="logo">
+                    <img src=" https://www.laundrywala.in/wp-content/uploads/2021/07/laundrywala-logo.webp"
+                        alt="nav-logo" width="200px">
+                </div>
+
+                <!-- div for nav-links -->
+                <div class="nav">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#contact-us">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- div for username -->
+                <div class="username">
+                    <strong>username</strong>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main id="home">
+
+
+
+        <!-- Hero section -->
+        <section id="hero" class="hero">
+
+            <!-- div for container -->
+            <div class="container">
+
+                <!-- div for home container -->
+                <div class="home-container">
+
+                    <!-- div for left container -->
+                    <div class="left-container">
+                        <h1>Revitalize Your Clothes <br> With Expert</h1>
+                        <h1 style="color: rgb(19, 116, 133);">Laundry Services!</h1>
+                        <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a
+                            pickup and rediscover the freshness of Your clothes today!</p>
+                        <button><a href="#service" style="color: white;"><i class="fa-solid fa-store"></i> Book a
+                                service today!</a></button>
+                    </div>
+
+                    <!-- div for right container -->
+                    <div class="right-container">
+                        <div class="image"><img
+                                src="https://www.laundrywala.in/wp-content/uploads/2021/07/cropped-laundrywala-favicon.png"
+                                alt="brand-image"></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- hero section ended -->
+
+
+
+    </main>
+
+
+
+    <!-- service and booking section -->
+    <section id="service" class="container">
+
+
+        <!-- div for achievements -->
+        <div class="achievements">
+            <h2>Our Achievements</h2>
+            <p>
+                <strong>15+</strong>
+                <br>
+                Laundry Services
+            </p>
+
+            <p>
+                <strong>240+</strong>
+                <br>
+                Happy Customers
+            </p>
+
+            <p>
+                <strong>2+ Yrs</strong>
+                <br>
+                Experience
+            </p>
+        </div> <!-- div for achievements ended-->
+
+
+
+        <!-- container for service and booking -->
+        <div class="s-b-container">
+
+            <!-- div for service -->
+            <div class="service">
+                <h2>Our Service</h2>
+                <p>click on the add, to cart button to add the services to your cart</p>
+                <hr>
+
+                <!-- div for service list -->
+                <div class="service-list">
+
+                    <!-- code will be written by js -->
+
+                </div> <!-- div for service list ended-->
+
+
+                <hr>
+                <p style="color: blue;"><i class="fa-solid fa-circle-info"></i> Add the items to the cart and book now
+                </p>
+
+            </div> <!-- div for service ended -->
+
+
+
+            <!-- div for booking -->
+            <div class="booking">
+
+
+                <!-- adding item div -->
+                <div class="added-item">
+                    <h2>Added Items</h2>
+                    <hr>
+                    <div class="prev-item"></div>
+
+                    <!-- <h3><i class="fa-solid fa-circle-info"></i><br>NO items Added</h3>
+                            <p>please add the services to your cart</p> -->
+
+                    <div class=amount>
+                        <h2>Total Amount:</h2>
+                        <h2 class="prices">₹0.00</h2>
+                    </div>
+
+                </div> <!-- adding item div -->
+
+
+                <div class="book-now">
+                    <h3>Book Now</h3>
+                    <div class="user-detail">
+                        <form id="booking-form">
+                            <div class="f-name">
+                                <label for="name">Full Name</label>
+                                <input id="name" type="text" name="name" placeholder="Aman Kumar" required>
+                            </div>
+
+                            <div class="f-email-phn">
+                                <div class="f-email">
+                                    <label for="email">Email ID</label>
+                                    <input type="email" id="email" name="email" placeholder="amankr@gmail.com" required>
+                                </div>
+
+                                <div class="f-phone">
+                                    <label for="name">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="0000000000" required>
+                                </div>
+                            </div>
+                            <button type="submit" id="booking-btn">Book now</button>
+                        </form>
+                    </div>
+                    <p class="cnfrm" style="color: green;"></p>
+                </div>
+            </div> <!-- div for booking ended -->
+
+
+
+        </div> <!-- container for service and booking ended-->
+
+
+
+
+    </section> <!-- service and booking section ended -->
+
+
+
+
+    <!-- footer starts -->
+    <footer class="footer">
+
+
+        <!-- container div for footer-->
+        <div class="container">
+
+            <!-- info div of website -->
+            <div id="about-us" class="info">
+
+                <div id="premium" class="info-serv">
+                    <img class="img" src="https://i.pinimg.com/736x/f8/49/0b/f8490bcf89b8f894ea1a0c18ca0eab9d.jpg"
+                        alt="laundry-logo">
+                    <h3>Premium Service</h3>
+                    <p>Elevate your wardrobe with our meticulous dry cleaning. Ensure garments look and feel as good as
+                        new.</p>
+                </div>
+
+                <div id="q-support" class="info-serv">
+                    <img class="img"
+                        src="data:image/png;base64,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"
+                        alt="quick-support">
+                    <h3>Quick Support</h3>
+                    <p>We're committed to provide prompt solutions to ensure your experience is smooth and worry-free
+                    </p>
+                </div>
+
+                <div id="f-delivery" class="info-serv">
+                    <img class="img"
+                        src="https://png.pngtree.com/png-clipart/20230405/original/pngtree-black-free-delivery-png-image_9025693.png"
+                        alt="free-delivery-logo">
+                    <h3>Hassle Free Delivery</h3>
+                    <p>Enjoy seamless service with our convenient pickup and delivery options, as per your schedule</p>
+                </div>
+
+                <div id="aff-price" class="info-serv">
+                    <img class="img"
+                        src="https://static.vecteezy.com/system/resources/previews/027/787/259/non_2x/black-round-best-price-with-ribbon-for-badge-icon-stamp-label-logo-sign-guarantee-seal-emblem-sticker-elegant-and-modern-illustration-vector.jpg"
+                        alt="affordable-price-logo">
+                    <h3>Affordable Prices</h3>
+                    <p>Experience exceptional care without breaking the bank- our affordable prices make laundry day
+                        stress-free</p>
+                </div>
+
+            </div> <!-- info div of website ends here -->
+
+
+            <!-- newsletter div -->
+            <div class="newsletter">
+
+                <div class="subscribe">
+                    <h2>Subscribe to our newsletter.</h2>
+                </div>
+
+                <div class="n-e">
+                    <input class="subs" type="text" name="name" placeholder="Full name">
+                    <input class="subs" type="email" name="email" placeholder="Email">
+                    <button class="subs">Subscribe</button>
+                </div>
+            </div> <!-- newsletter div ends-->
+
+
+            <!-- description div -->
+            <div class="description">
+
+                <div class="f-logo">
+                    <img src=" https://www.laundrywala.in/wp-content/uploads/2021/07/laundrywala-logo.webp"
+                        alt="nav-logo" width="150px">
+                    <h3>About us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, necessitatibus?</p>
+                </div>
+
+                <div id="contact-us" class="f-links">
+                    <h3>Important Links</h3>
+                    <a href="#">About us</a>
+                    <br>
+                    <a href="#">Contact us</a>
+                    <br>
+                    <a href="#">Privacy Policy</a>
+                    <br>
+                    <a href="#">Refund Policy</a>
+                    <br>
+                    <a href="#">Terms of use</a>
+                </div>
+
+                <div class="f-contact">
+                    <h3>Contact</h3>
+                    <a href="#">aman@gmail.com</a>
+                    <br>
+                    <a href="#">+91 0000000000</a>
+                </div>
+
+                <div class="f-follow">
+                    <h3>Follow Us</h3>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+            </div> <!-- description ends -->
+
+
+        </div> <!-- container ends -->
+
+
+    </footer> <!-- footer ends -->
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "2inJ3lgFCB5btjqxB",
+      });
+   })();
+</script>
+    <script src="script.js"></script>
+</body>
+
+</html>

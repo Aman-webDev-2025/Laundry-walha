@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: #fff;
+}
+
+
+.container{
+    
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(123, 119, 119);
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover{
+    color: rgb(109, 103, 103);
+    border-bottom: 3px solid rgb(54, 129, 241);
+    transition:ease-in ;
+}
+
+.username{
+    margin:0.7rem 0;
+    padding: 0.7rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(54, 129, 241);
+}
+
+.home-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.left-container{
+    align-items: center;
+    padding: 8rem;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.03rem;
+}
+
+.left-container p{
+    margin-top: 1rem;
+    color: rgb(94, 92, 92);
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.left-container button{
+    margin-top: 1.5rem;
+    padding: 0.5rem 1.2rem;
+    color: white;
+    background-color: rgb(54, 129, 241);
+    border: none;
+    border-radius: 10px;
+}
+
+.left-container button:hover{
+    border: 2px solid transparent;
+}
+
+.achievements{
+    background-color: rgb(54, 129, 241);
+    margin-top: 2rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+
+/* Booking and service section */
+
+
+.s-b-container{
+    margin: 5rem 5rem;
+    display: grid;
+    grid-template-columns: 1.9fr 1fr;
+    gap: 1rem;
+}
+
+.service{
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.service p{
+    color: rgb(94, 92, 92);
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    word-spacing: 0.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.service-list{
+    margin:1.5rem auto;
+}
+
+.service-list li{
+    padding: 1rem 0.5rem;
+    list-style: none;
+    font-size:large;
+}
+.service-btn{
+    float: right;
+    height: 2rem;
+    width: 10rem;
+    /* padding: 0.5rem 2.4rem; */
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(227, 227, 227);
+}
+
+.list span{
+    padding-left: 0.5rem;
+    color: blue;
+}
+
+
+/* booking  */
+
+
+.booking h2{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.added-item{
+    padding: 0 1rem;
+    height: 48%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    border-radius: 2rem;
+    position: relative;
+}
+
+.book-now{
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    line-height: 2rem;
+    height: 48%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    border-radius: 2rem;
+}
+.prev-item{
+    padding: 0 2rem 1rem 2rem;
+}
+.prev-item h3{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-weight:bold;
+}
+.prev-item p{
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap:4rem;
+    position:absolute;
+    bottom: 0;
+}
+.prices{
+    justify-self: end;
+}
+#booking-btn{
+    margin-top: 10px;
+    width: 100%;
+    padding: 0.4rem 0;
+    border-radius: 0.5rem;
+    color: white;
+    background-color:rgb(54, 129, 241);
+    border: none;
+}
+
+
+.f-email-phn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
+#name{
+    display: block;
+    width: 100%;
+}
+
+.book-now input{
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+
+.material-symbols-outlined{
+    height: 100px;
+}
+
+.info{
+    margin: 7rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.info-serv{
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    line-height: 1rem;
+}
+
+.info-serv h3{
+    margin: 0.8rem 0;
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+}
+
+.info-serv p{
+    color: rgb(94, 92, 92);
+}
+
+.newsletter{
+    height: 10rem;
+    background-color: rgb(54, 129, 241);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+.newsletter h2{
+    padding-top: 3rem;
+}
+
+.n-e{
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subs{
+    margin: 0.1rem;
+    border: 2px solid transparent;
+    border-radius: 2px;
+
+}
+
+.n-e input{
+    padding-left: 15px;
+}
+
+.n-e button{
+    
+    background-color: white;
+    color: rgb(54, 129, 241);
+}
+
+
+.description{
+    background-color: rgb(221, 243, 243);
+    padding: 3rem 0;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    text-align: center;
+}
+
+.description  p ,a{
+    padding-top: 0.5rem;
+    color:rgb(94, 92, 92) ;
+    text-decoration: none;
+}
